@@ -3,15 +3,15 @@ package com.github.hcsp.inheritance;
 public class Main {
     public static void main(String[] args) {
         Cat cat = new Cat("ABC");
-        cat.meow();
-        cat.sayMyName();
+        cat.speak();
+        cat.sayName();
 
         Dog dog = new Dog("BCD");
-        dog.wang();
-        dog.sayMyName();
+        dog.speak();
+        dog.sayName();
 
         Rat rat = new Rat("BCD");
-        rat.zhizhi();
-        rat.sayMyName();
+        rat.speak();
+        rat.sayName();
     }
 }
